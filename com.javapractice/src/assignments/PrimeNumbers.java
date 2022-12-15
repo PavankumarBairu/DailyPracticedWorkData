@@ -26,27 +26,10 @@ public class PrimeNumbers {
 			}
 			if(IsPrime)
 				System.out.println("Prime Number : "+n);
-//			else
-//			System.out.println("Not a Prime Number :"+n);
+			else
+			System.out.println("Not a Prime Number :"+n);
 			n1++;
 		}
-//		int i,j,n;
-//		n=n1;
-//		i=2;
-//		boolean IsPrime=true;
-//		if(n!=1 && n!=2) {
-//			while(i<n) {
-//				if(n%i==0) {
-//					IsPrime=false;
-//					break;
-//				}
-//				i++;
-//			}
-//		}
-//		if(IsPrime)
-//			System.out.println("Prime Number : "+n);
-//		else
-//		System.out.println("Not a Prime Number :");
 	}
 
 }
