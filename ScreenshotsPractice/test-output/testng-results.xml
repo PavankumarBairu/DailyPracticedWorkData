@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T15:44:05 IST" name="Default suite" finished-at="2022-12-07T15:44:12 IST" duration-ms="6185">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T15:44:05 IST" name="Default test" finished-at="2022-12-07T15:44:12 IST" duration-ms="6185">
+      <class name="screenshots.TestGoogle">
+        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:screenshots.TestGoogle@a8c1f44]" started-at="2022-12-07T15:44:01 IST" name="InitializeBrowser" finished-at="2022-12-07T15:44:05 IST" duration-ms="3916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method signature="TestGoogleMethod()[pri:0, instance:screenshots.TestGoogle@a8c1f44]" started-at="2022-12-07T15:44:05 IST" name="TestGoogleMethod" finished-at="2022-12-07T15:44:11 IST" duration-ms="5853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGoogleMethod -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:screenshots.TestGoogle@a8c1f44]" started-at="2022-12-07T15:44:11 IST" name="getScreenshot" finished-at="2022-12-07T15:44:12 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestGoogleMethod status=SUCCESS method=TestGoogle.TestGoogleMethod()[pri:0, instance:screenshots.TestGoogle@a8c1f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:screenshots.TestGoogle@a8c1f44]" started-at="2022-12-07T15:44:12 IST" name="Teardown" finished-at="2022-12-07T15:44:12 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- screenshots.TestGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
