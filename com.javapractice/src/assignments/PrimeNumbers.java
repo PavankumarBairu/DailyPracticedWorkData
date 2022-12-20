@@ -10,7 +10,7 @@ public class PrimeNumbers {
 		int n2=s.nextInt();
 		System.out.println("Prime numbers between:"+n1+" to "+n2+" are:-\r");
 		s.close();
-		while(n1<n2) {
+		while(n1<=n2) {
 			int i,n;
 			n=n1;
 			i=2;

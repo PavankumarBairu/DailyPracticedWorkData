@@ -53,7 +53,7 @@ public class BaseClass {
 	public static void CaptureScreenshot(String Methodname) {
 		if (ScreenshotSubFolderName == null) {
 			LocalDateTime mydate = LocalDateTime.now();
-			DateTimeFormatter dft = DateTimeFormatter.ofPattern("ddMMyyyyHHmmss");
+			DateTimeFormatter dft = DateTimeFormatter.ofPattern("dd-MM-yyyy-HHmmss");
 			ScreenshotSubFolderName = mydate.format(dft);
 			System.out.println(ScreenshotSubFolderName);
 		}
